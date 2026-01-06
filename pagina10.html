@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi página Web</title>
+</head>
+<body style="background-color: #bfffff; margin: 40px;">
+<h3>Formulario con "imput button"</h3>
+<p><b>Pregunta:</b> ¿Cuál es el lenguaje de programación utilizado para desarrollar páginas web dinámicas en el lado del servidor?</p>
+<ul>
+	<li>Python <input type="button" value="Seleccionar"></li>
+	<li>PHP <input type="button" value="Seleccionar"></li>
+	<li>HTML <input type="button" value="Seleccionar"></li>
+</ul>
+<h3>Formulario para subir archivos</h3>
+<form action="procesararchivos.php" method="post" enctype="multipart/form-data">
+	Seleccione Archivo1:
+	<input type="file" name="archivo1" required><br><br>
+	Seleccione Archivo2:
+	<input type="file" name="archivo2" required><br><br>
+	<input type="submit" value="Enviar">
+</form><br>
+<h3>Formulario Datos personales</h3>
+<fieldset>
+	<legend>Datos personales</legend>
+	Apellido y nombre:
+	<input type="text" name="nombre" size="30"><br>
+	Documento de identidad:
+	<input type="text" name="dni" size="8"><br>
+	Fecha de nacimiento:
+	<input type="text" name="fechanacimiento" size="12"><br>
+	Dirección:
+	<input type="text" name="direccionpersona" size="30"><br>
+</fieldset><br>
+<h3>Formulario de Pizza</h3>
+<form action="registrardatos.php" method="post">
+	<fieldset>
+		<legend>Seleccione tipo y cantidad de pizzas</legend>
+		Pizza:
+		<select name="pizza1">
+		<option value="1">Mozzarella</option>
+		<option value="2">Jamon y Queso</option>
+		<option value="3">Napolitana</option>
+		</select>
+		Cantidad:
+		<select name="cantidad1">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		</select><br>
+		Pizza:
+		<select name="pizza2">
+		<option value="1">Mozzarella</option>
+		<option value="2">Jamon y Queso</option>
+		<option value="3">Napolitana</option>
+		</select>
+		Cantidad:
+		<select name="cantidad2">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		</select><br>
+		Pizza:
+		<select name="pizza3">
+		<option value="1">Mozzarella</option>
+		<option value="2">Jamon y Queso</option>
+		<option value="3">Napolitana</option>
+		</select>
+		Cantidad:
+		<select name="cantidad3">
+		<option value="0">0</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		</select>
+	</fieldset>
+	<fieldset>
+		<legend>Datos</legend>
+		Nombre:
+		<input type="text" name="nombre" size="30"><br>
+		Dirección:
+		<input type="text" name="direccion" size="30"><br>
+		Teléfono:
+		<input type="text" name="telefono" size="10"><br>
+	</fieldset><br>
+	<input type="submit" value="Enviar">
+</form><br>
+<table width="100%">
+	<tr>
+		<td align="left"><a href="./pagina9.html">Ir a la página 9</a></td>
+		<td align="center"><a href="../index.html">Volver al Índice</a></td>
+		<td align="right"><a href="./pagina11.html">Ir a la página 11</a></td>
+	</tr>
+</table>
+</body>
+</html>

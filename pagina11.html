@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi página Web</title>
+</head>
+<body style="background-color: #bfffff; margin: 40px;">
+<h3>Formulario uso con las etiquetas "select, input, textarea"</h3>
+<form action="registrardatos.php" method="post">
+	Nombre:
+	<input type="text" name="nombre"><br>
+	Mail:
+	<input type="email" name="mail"><br>
+	País de origen:<br>
+	<select name="pais">
+		<option selected>Seleccione país</option>
+		<option>España</option>
+		<option>Argentina</option>
+		<option>México</option>
+		<option>Chile</option>
+		<option>Colombia</option>
+	</select><br>
+	Valoración del sitio:<br>
+	<select name="valoración">
+		<option value="malo">Malo</option>
+		<option value="regular">Regular</option>
+		<option value="bueno">Bueno</option>
+		<option value="muy bueno">Muy bueno</option>
+		<option value="excelente">Excelente</option>
+	</select>
+	Comentarios:<br>
+	<textarea name="comentarios" rows="5" cols="40"></textarea><br>
+	<input type="submit" value="Enviar">
+</form>
+<h3>Matriz 4x4</h3>
+</table>
+	<form action="registrardatos.php" method="post">
+	<input type="text" name="text1" size="5" value="1" tabindex="1">
+	<input type="text" name="text2" size="5" value="2" tabindex="2">
+	<input type="text" name="text3" size="5" value="3" tabindex="3">
+	<input type="text" name="text4" size="5" value="4" tabindex="4">
+	<br>
+	<input type="text" name="text5" size="5" value="5" tabindex="12">
+	<input type="text" name="text6" size="5" value="6" tabindex="13">
+	<input type="text" name="text7" size="5" value="7" tabindex="14">
+	<input type="text" name="text8" size="5" value="8" tabindex="5">
+	<br>
+	<input type="text" name="text9" size="5" value="9" tabindex="11">
+	<input type="text" name="text10" size="5" value="10" tabindex="16">
+	<input type="text" name="text11" size="5" value="11" tabindex="15">
+	<input type="text" name="text12" size="5" value="12" tabindex="6">
+	<br>
+	<input type="text" name="text13" size="5" value="13" tabindex="10">
+	<input type="text" name="text14" size="5" value="14" tabindex="9">
+	<input type="text" name="text15" size="5" value="15" tabindex="8">
+	<input type="text" name="text16" size="5" value="16" tabindex="7">
+	<br><br>
+	<input type="submit" value="enviar" tabindex="17">
+</form><br>
+<h3>Formulario con los tipos input y button desactivados</h3>
+<form action="registrardatos.php" method="post">
+	Introduce tu nombre:
+	<input type="text" name="nombre" size="20"><br>
+	Introduce tu contraseña:
+	<input type="password" name="contraseña" size="20"><br>
+	Comentarios: <br>
+	<textarea name="Comentario" rows="5" cols="50"></textarea><br>
+	<input type="checkbox" name="option1" disabled>opción 1 <br>
+	<input type="checkbox" name="option2" disabled>opción 2 <br>
+	<input type="checkbox" name="option3" disabled>opción 3 <br>
+	<input type="checkbox" name="option4" disabled>opción 4 <br><br>
+	<select name="Frutas" disabled>
+		<option value="1">Mandarinas</option>
+		<option value="2">Fresas</option>
+		<option value="3">Sandía</option>
+		<option value="4">Naranjas</option>
+		<option value="5">Coco</option>
+		<option value="6">Uvas</option>
+	</select><br><br>
+	<button type="submit" disabled>Enviar</button>
+</form><br>
+<table width="100%">
+	<tr>
+		<td align="left"><a href="./pagina10.html">Ir a la página 10</a></td>
+		<td align="center"><a href="../index.html">Volver al Índice</a></td>
+		<td align="right"><a href="./pagina12.html">Ir a la página 12</a></td>
+	</tr>
+</table>
+</body>
+</html>

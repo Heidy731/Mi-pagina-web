@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mi página Web</title>
+</head>
+<body style="background-color: #bfffff; margin: 40px;">
+<h3>Formulario con un max de carácteres</h3>
+<form action="registrardatos.php" method="post">
+	Introduce tu nombre:
+	<input type="text" name="nombre" maxlength="10" size="15"><br>
+	Introduce tu contraseña:
+	<input type="password" name="contraseña" maxlength="9" size="11"><br>
+	<input type="submit" value="enviar">
+</form>
+<h3>Formulario más completo con maxlength</h3>
+<form action="registrardatos.php" method="post">
+	Introduce tu nombre:
+	<input type="text" name="nombre" maxlength="40" size 60><br>
+	Introduce tu edad:
+	<input type="text" name="edad" maxlength="3" size="3"><br>
+	Introduce tu DNI:
+	<input type="text" name="DNI" maxlength="8" size="10"><br>
+	<input type="submit" value="Enviar">
+</form><br>
+<h3>Formulario con "textarea" en readonly</h3>
+
+<form action="registrardatos.php" method="post">
+	Introduce tu nombre:
+	<input type="text" name="nombre" size="30" value="no puedes escribir" readonly>	<br>
+	Comentario:<br>
+	<textarea name="comentarios" rows="5" cols="60" readonly>no puedes escribir</textarea><br>
+	<input type="submit" value="Enviar">
+</form>
+<h3>Formulario más completo con readonly</h3>
+<form action="registrardatos.php" method="post">
+	Texto:
+	<input type="text" name="texto" size="20" readonly value="texto"><br>
+	Contraseña:
+	<input type="password" name="contraseña" size="12" readonly value="hola"><br>
+	<textarea rows="4" cols="30" name="textarea" readonly>no se puede escribir</textarea><br>
+	<input type="submit" value="enviar">
+	<input type="reset" value="borrar">
+</form><br>
+<h3>Formulario con lablel</h3>
+<form action="registrardatos.php" method="post">
+<fieldset>
+	<legend>Formulario para calificar página</legend>
+		<label for="nombredelsitio">Nombre del sitio:</label><br>
+		<input type="text" id="nombredelsitio" name="nombredelsitio"><br><br>
+		<label for="calificacion">Calificación (1 a 10):</label><br>
+		<select id="calificacion" name="calificacion">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select><br><br>
+		<input type="submit" value="Enviar">
+</fieldset>
+</form>
+
+<table width="100%">
+	<tr>
+		<td align="left"><a href="./pagina11.html">Ir a la página 11</a></td>
+		<td align="center"><a href="../index.html">Volver al Índice</a></td>
+		<td align="right"><a href="./pagina13.html">Ir a la página 13</a></td>
+	</tr>
+</table>
+</body>
+</html>

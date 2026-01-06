@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mi página Web</title>
+</head>
+<body style="background-color: #bfffff; margin: 40px;">
+<h2>Uso de la etiqueta div y span</h2>
+
+<div style="background-color:#1f8635">
+<h3>Mario espinoso</h3>
+<p style="color:#252323;text-indent:20px">
+Aqui <span style="background-color:#7c1f8d">comentaridos.</span>
+aqui se incluye el texto de ejemplo</p>
+
+<h3>Julian rodriguez</h3>
+<p style="color:#252323;text-indent:20px">
+<span style="background-color:#7c1f8d">Aquí comentarios.</span>
+Aqui se debe incluir mas texto de ejemplo</p>
+</div>
+<h2>Uso de la etiqueta pre</h2>
+<pre>select * from editoriales
+left join libros
+on editoriales.codigo=libros.codigoeditorial;</pre>
+<h2>Primera pagina con "pre"</h2>
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Título de la página&lt;/title&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+PHP - Java - JavaScript - C - C++
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<h3>Aqui tenemos el último ejercicio completo</h3>
+<!-- Título principal -->
+	<h1 style="color:#003366; text-align:center; text-transform:uppercase; letter-spacing:2px;">
+	ASIR - Tutorial de HTML</h1>
+	<p style="font-size:16px; line-height:1.6; text-align:justify;"> Bienvenido al tutorial de HTML. aqui hago uso de las etiquetas</p>
+<!-- Lista ordenada con enlaces -->
+	<h2 style="color:#003366;">Contenido:</h2>
+	<ol style="font-size:16px; line-height:1.6;">
+		<li><a href="#tema1" style="color:#0066cc; text-decoration:none;">Estructura básica de HTML</a></li>
+		<li><a href="#tema2" style="color:#0066cc; text-decoration:none;">Etiquetas comunes</a></li>
+		<li><a href="#tema4" style="color:#0066cc; text-decoration:none;">Propiedades de texto</a></li>
+		<li><a href="#tema5" style="color:#0066cc; text-decoration:none;">Listas y enlaces</a></li></ol>
+<!-- Tema 1 -->
+	<h3 id="tema1" style="color:#003366;">1. Estructura básica de HTML</h3>
+	<p style="font-size:16px; line-height:1.6; text-align:justify;">HTML es un lenguaje de marcado que permite estructurar contenido en la web. Toda página HTML tiene:
+	<ul>
+		<li><strong>&lt;!DOCTYPE html&gt;</strong> - Define el tipo de documento.</li>
+		<li><strong>&lt;html&gt;</strong> - Contenedor principal de la página.</li>
+		<li><strong>&lt;head&gt;</strong> - Contiene metadatos, título</li>
+		<li><strong>&lt;body&gt;</strong> - Contiene todo el contenido visible de la página.</li>
+	</ul></p>
+<!-- Tema 2 -->
+	<h3 id="tema2" style="color:#003366;">2. Etiquetas comunes</h3>
+	<p style="font-size:16px; line-height:1.6; text-align:justify;">Algunas etiquetas HTML comunes son:
+	<ul>
+		<li><strong>&lt;h1&gt; a &lt;h6&gt;</strong> - Títulos y subtítulos.</li>
+		<li><strong>&lt;p&gt;</strong> - Párrafos.</li>
+		<li><strong>&lt;a&gt;</strong> - Enlaces.</li>
+		<li><strong>&lt;img&gt;</strong> - Imágenes.</li>
+		<li><strong>&lt;ul&gt; y &lt;ol&gt;</strong> - Listas.</li>
+	</ul></p>
+<!-- Tema 3 -->
+	<h3 id="tema4" style="color:#003366;">3. Propiedades de texto</h3>
+	<p style="font-size:16px; line-height:1.6; text-align:justify;">Para mejorar la presentación del texto, CSS ofrece:
+	<ul>
+		<li><strong>font-weight</strong>: negrita o normal.</li>
+		<li><strong>font-style</strong>: cursiva o normal.</li>
+		<li><strong>text-transform</strong>: mayúsculas, minúsculas, capitalizar.</li>
+		<li><strong>letter-spacing</strong>: espacio entre letras.</li>
+		<li><strong>line-height</strong>: altura de línea.</li>
+	</ul></p>
+<!-- Tema 4 -->
+	<h3 id="tema5" style="color:#003366;">4. Listas y enlaces</h3>
+	<p style="font-size:16px; line-height:1.6; text-align:justify;">Las listas y enlaces son elementos importantes:
+	<ul>
+		<li><strong>&lt;ol&gt;</strong> - Lista ordenada.</li>
+		<li><strong>&lt;ul&gt;</strong> - Lista desordenada.</li>
+		<li><strong>&lt;a href="url"&gt;</strong> - Enlaces a páginas o secciones internas.</li>
+	</ul>
+	Puedes enlazar a un tema específico usando <strong>id</strong> en los encabezados.</p>
+
+<table width="100%">
+	<tr>
+		<td align="left"><a href="./pagina13.html">Ir a la página 13</a></td>
+		<td align="center"><a href="../index.html">Volver al Índice</a></td>
+		<td align="right"><a href="./pagina15.html">Ir a la página 15</a></td>
+	</tr>
+</table>
+</body>
+</html>

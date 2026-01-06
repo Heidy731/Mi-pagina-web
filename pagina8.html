@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mi página Web</title>
+</head>
+<body style="background-color: #bfffff; margin: 40px;">
+<h3>Formulario con checkbox</h3>
+<form action="registrardatos.php" method="post">
+	Introduce mail:
+	<input type="text" name="mail" size="50"><br><br>
+	Introduce clave:
+	<input type="password" name="clave" size="10"><br><br>
+	<em>Peliculas para Streaming</em><br>
+	<input type="checkbox" name="pelicula1">Interstellar<br>
+	<input type="checkbox" name="pelicula2">Forest Gump<br>
+	<input type="checkbox" name="pelicula3">REC<br>
+	<input type="checkbox" name="pelicula4">Shreck<br><br>
+	<input type="submit" value="Enviar">
+</form>
+<h3>Formulario tipo radio</h3>
+<form action="registrardatos.php" method="post">
+	Introduce un nombre:
+	<input type="text" name="nombre" size="30"><br>
+	Seleccione el máximo nivel de estudios que tiene:<br>
+	<input type="radio" name="estudios" value="1">Sin estudios<br>
+	<input type="radio" name="estudios" value="2">Primario<br>
+	<input type="radio" name="estudios" value="3">Secundario<br>
+	<input type="radio" name="estudios" value="4">Universitario<br><br>
+	<input type="submit" value="Enviar">
+</form><br>
+<h3>Formulario de elección SO</h3>
+<form action="registrardatos.php" method="post">
+	Introduce un nombre:
+	<input type="text" name="nombre" size="30"><br>
+	Que sistema operativo utiliza más?<br>
+	<input type="radio" name="so" value="1">Windows<br>
+	<input type="radio" name="so" value="2">Linux<br><br>
+	<input type="submit" value="Enviar">
+</form><br>
+<h3>formulario de tipo "select"</h3>
+<form action="registrardatos.php" method="post">
+Introduce nombre:
+<input type="text" name="nombre" size="30"><br>
+	Seleccione su pais:
+	<select name="pais">
+	<option value="1">España</option>
+	<option value="2">Inglaterra</option>
+	<option value="3">Francia</option>
+	<option value="4">Bolivia</option>
+	<option value="5">Argentina</option>
+	</select> <br><br>
+	<input type="submit" value="Enviar">
+</form>
+<table width="100%">
+	<tr>
+		<td align="left"><a href="./pagina7.html">Ir a la página 7</a></td>
+		<td align="center"><a href="../index.html">Volver al Índice</a></td>
+		<td align="right"><a href="./pagina9.html">Ir a la página 9</a></td>
+	</tr>
+</table>
+</body>
+</html>
